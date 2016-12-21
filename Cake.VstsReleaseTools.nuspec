@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>Cake.VstsReleaseTools</id>
+    <title>Cake.VstsReleaseTools</title>
+    <authors>fleed@github</authors>
+    <owners></owners>
+    <licenseUrl>https://github.com/fleed/Cake.VstsReleaseTools</licenseUrl>
+    <projectUrl>https://github.com/fleed/Cake.VstsReleaseTools</projectUrl>
+    <!--<iconUrl></iconUrl>-->
+    <language>en-US</language>
+    <description>A Cake addin with utilities to release using VSTS</description>
+    <tags>cake build release script</tags>
+    <dependencies>
+      <dependency id="Newtonsoft.Json" version="9.0.1" />
+    </dependencies>
+  </metadata>
+</package>

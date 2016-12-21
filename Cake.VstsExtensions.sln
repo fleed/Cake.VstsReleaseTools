@@ -1,0 +1,48 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{1108031E-4F2E-4631-B72E-BD7A6DC18849}"
+	ProjectSection(SolutionItems) = preProject
+		build.cake = build.cake
+		build.ps1 = build.ps1
+		cake.config = cake.config
+		Cake.VstsReleaseTools.nuspec = Cake.VstsReleaseTools.nuspec
+		global.json = global.json
+		helpers.cake = helpers.cake
+	EndProjectSection
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "Cake.VstsReleaseTools", "src\Cake.VstsReleaseTools\Cake.VstsReleaseTools.xproj", "{9F2E8CC1-6894-4B63-BF77-C5E0EAEEB744}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{13A85249-2AF5-4F0F-BD66-4EC2E6A5BB43}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{5F389349-4627-4155-ACBE-B5F08814EAEB}"
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "Cake.VstsReleaseTools.Tests", "test\Cake.VstsReleaseNotes.Tests\Cake.VstsReleaseTools.Tests.xproj", "{20A0D0B1-3438-4BCD-AA26-7CAE8F5663E8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "samples", "samples", "{C82EC2B9-A80E-4AAF-A3B8-C0203FDE26EF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9F2E8CC1-6894-4B63-BF77-C5E0EAEEB744}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9F2E8CC1-6894-4B63-BF77-C5E0EAEEB744}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9F2E8CC1-6894-4B63-BF77-C5E0EAEEB744}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9F2E8CC1-6894-4B63-BF77-C5E0EAEEB744}.Release|Any CPU.Build.0 = Release|Any CPU
+		{20A0D0B1-3438-4BCD-AA26-7CAE8F5663E8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{20A0D0B1-3438-4BCD-AA26-7CAE8F5663E8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{20A0D0B1-3438-4BCD-AA26-7CAE8F5663E8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{20A0D0B1-3438-4BCD-AA26-7CAE8F5663E8}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{9F2E8CC1-6894-4B63-BF77-C5E0EAEEB744} = {13A85249-2AF5-4F0F-BD66-4EC2E6A5BB43}
+		{20A0D0B1-3438-4BCD-AA26-7CAE8F5663E8} = {5F389349-4627-4155-ACBE-B5F08814EAEB}
+	EndGlobalSection
+EndGlobal

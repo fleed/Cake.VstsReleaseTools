@@ -1,0 +1,1 @@
+#addin nuget:D:\git\fleed\Cake.VstsReleaseTools\dist\package?package=Cake.VstsReleaseTools
